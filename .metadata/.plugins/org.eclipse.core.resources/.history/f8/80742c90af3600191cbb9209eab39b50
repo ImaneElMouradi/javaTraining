@@ -1,0 +1,13 @@
+
+public class Caddie {
+
+	private String[] nom;
+	private double[] quantite;
+	int i=0;
+	
+	
+	public void remplir(String nom, double quantite) {
+		this.nom[i] = nom;
+		this.quantite[i] = quantite;
+	}
+}

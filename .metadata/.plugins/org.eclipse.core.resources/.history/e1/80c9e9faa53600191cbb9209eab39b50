@@ -1,0 +1,34 @@
+package semaine2_exo5_banques;
+
+public class Client {
+
+	private String nom, ville, genre;
+	private Compte cpt1, cpt2;
+	
+	public Client(String nom, String ville, double taux1, double solde1, double taux2, double solde2, String genre) {
+		this.nom = nom;
+		this.ville = ville;
+		// compte privé
+		cpt1 = new Compte(taux1,solde1);
+		// compte d'épargne
+		cpt2 = new Compte(taux2,solde2);
+			
+	}
+	
+	
+	
+	
+	
+	public void afficher() {
+		// Cette méthode affiche les données du client
+		if(genre.equals("m")) {
+			System.out.println("Client " + nom + " de " + ville);
+		}else {
+			System.out.println("Cliente " + nom + " de " + ville);
+		}
+				
+		System.out.println("   Compte privé:     " + cpt1.getSolde() + " francs");
+		System.out.println("   Compte d'épargne: " + cpt2.getSolde() + " francs");
+	}
+		
+}

@@ -1,0 +1,35 @@
+package TP4;
+
+public class Rectangle {
+	Point hg,bd ;    
+	// Les coins haut à gauche et bas à droite 
+	// Rectangle droit    
+	public Rectangle(){    
+		// rectangle par défaut. Choisir son initialisation    
+		}   
+	
+	public Rectangle(Point h, Point b){    
+		// initialisation des coins à partir des paramètres    
+		// données    
+	}  
+	
+	public void afficher(){    
+		// Affiche les coordonnées des coins    
+	}     
+	
+	public int surface(){    
+		// calcule de la surface    
+	}  
+	
+	public void zoom(int deltax, int deltay){    
+		// Dilatation des coordonnées. Delta donné.    
+	} 
+		
+	
+	// autres méthodes... 
+		
+}
+		
+
+	
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/oc_java_p1/src/oc_java_p1/tp1_conversion_celsius_fahrenheit.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="oc_java_p1.tp1_conversion_celsius_fahrenheit"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="oc_java_p1"/>
+</launchConfiguration>

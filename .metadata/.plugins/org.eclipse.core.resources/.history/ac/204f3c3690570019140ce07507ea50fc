@@ -1,0 +1,6 @@
+
+public interface B {
+	public int x=2;     
+	public  void f();
+	
+}

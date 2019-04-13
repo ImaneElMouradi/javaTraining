@@ -1,0 +1,5 @@
+package semaine2_exo7_segmentationDeMots;
+
+public class TokenizableString {
+
+}

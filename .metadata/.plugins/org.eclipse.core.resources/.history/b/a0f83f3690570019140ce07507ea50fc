@@ -1,0 +1,11 @@
+
+public interface B {
+	public int x=2;     
+	public  void f();
+	public void f() {
+			// implementation de f()
+			
+			System.out.println("Ok Interface ");
+		}
+	
+}

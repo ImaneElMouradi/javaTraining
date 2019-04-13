@@ -1,0 +1,22 @@
+import java.util.Date;
+import java.text.SimpleDateFormat;
+
+
+public class Caisse {
+	private int i = 1;
+	private double montant;
+	
+	
+	
+	public void totalCaisse() {
+		System.out.println("La caisse " + i + "a encaisse "  );
+	}
+	
+	public void scanner() {
+		Date dateCourante = new Date();
+		SimpleDateFormat formatDate = new SimpleDateFormat("dd/MM/yy");
+		System.out.println();
+	}
+	
+	
+}

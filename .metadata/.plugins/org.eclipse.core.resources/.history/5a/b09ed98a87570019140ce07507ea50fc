@@ -1,0 +1,31 @@
+package TP4;
+
+public class Fenetre {
+	private Rectangle rect;
+	private String titre;
+	
+	rect = new Rectangle();
+	
+	public Rectangle getRect() {
+		return rect;
+	}
+	public void setRect(Rectangle rect) {
+		this.rect = rect;
+	}
+	public String getTitre() {
+		return titre;
+	}
+	public void setTitre(String titre) {
+		this.titre = titre;
+	}
+	
+	public void deplacer(int dx, int dy) {
+		rect.getHg() += dx;
+		rect.getBd() += dx;
+	}
+	
+	
+	
+	
+	
+}

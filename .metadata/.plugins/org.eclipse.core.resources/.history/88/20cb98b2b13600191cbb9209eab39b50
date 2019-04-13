@@ -1,0 +1,35 @@
+
+public class Article {
+	
+	private String nom;
+	private double prixUnitaire;
+	private boolean solde;
+	
+	
+	public Article(String nom, double prixUnitaire, boolean solde ) {
+		
+		this.nom = nom;
+		this.prixUnitaire = prixUnitaire;
+		this.solde = solde;
+		
+	}
+	
+	
+	public void afficher(double quantite) {
+		
+		System.out.println(nom + " : " + prixUnitaire + " x " + quantite + " = ");
+		if(solde) {
+			System.out.print((prixUnitaire*quantite)/2 + " Frs (1/2 prix)");
+		}else {
+			System.out.print(prixUnitaire*quantite + " Frs");
+		}
+		
+	}
+	
+	public String getNom() {
+		return nom;
+	}
+	
+	
+	
+}

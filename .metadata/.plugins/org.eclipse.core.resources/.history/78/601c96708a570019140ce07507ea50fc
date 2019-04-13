@@ -1,0 +1,16 @@
+package TP4;
+
+public class RobotTest {
+
+	public static void main(String[] args) {
+		
+		Robot robot = new Robot();
+		System.out.println(robot);
+		
+		robot.deplacer(5, 3);
+		System.out.println(robot);
+
+
+	}
+
+}

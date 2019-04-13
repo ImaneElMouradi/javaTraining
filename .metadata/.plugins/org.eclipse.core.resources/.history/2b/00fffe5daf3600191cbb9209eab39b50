@@ -1,0 +1,7 @@
+
+public class Caddie {
+
+	public void remplir(String nom, double quantite) {
+		
+	}
+}

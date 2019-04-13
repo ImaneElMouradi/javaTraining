@@ -1,0 +1,19 @@
+
+public class TestImplement {
+
+	public static void main(String[] args) {
+		/*MonImplement o = new MonImplement();
+		
+		o.f();
+		System.out.println(o.x);
+		*/
+		
+		MonInterface o = new MonImplement();
+		o.f();
+		System.out.println(o.x);
+		
+		o.g();
+
+	}
+
+}

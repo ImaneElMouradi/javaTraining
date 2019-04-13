@@ -1,0 +1,28 @@
+
+public class TestPoint {
+	static public void main(String args[]){
+
+		
+		        Point p = new Point();  
+		        
+		        p.setX (3);        
+		        p.setY (4);        
+		        System.out.println( p.getX() );        
+		        System.out.println( p.getY() );    
+		        
+		        /* p.reset();
+		        System.out.println( p.getX() );        
+		        System.out.println( p.getY() ); */
+		        
+		        
+		        
+		        Point p1 = new Point(1,2);
+		        Point p2 = new Point(2,3);
+
+		        System.out.println(p1.distance(p2));  
+		        // or
+		        System.out.println(distance(p1,p2));
+		        
+		        
+	} 
+}

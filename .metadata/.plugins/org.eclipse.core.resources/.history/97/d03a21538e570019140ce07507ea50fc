@@ -1,0 +1,9 @@
+
+public class MonImplement implements MonInterface {
+
+	public void f() {
+		// implementation de f()
+		
+		System.out.println("Ok Interface ");
+	}
+}

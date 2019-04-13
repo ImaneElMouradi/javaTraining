@@ -1,0 +1,22 @@
+package semaine2_exo7_segmentationDeMots;
+
+import java.util.Scanner;
+
+public class TokenizableString {
+
+	private static Scanner scanner = new Scanner(System.in);
+	private String contenu;
+	private int from, len;
+	
+	
+	public TokenizableString(String contenu) {
+		this.contenu = contenu;
+	}
+	
+	
+	public boolean nextToken(char c) {
+		
+		return (c == ' ');
+	}
+	
+}

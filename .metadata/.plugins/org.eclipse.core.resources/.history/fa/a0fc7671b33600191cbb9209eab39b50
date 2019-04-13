@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+
+public class Caddie {
+
+	private ArrayList<Achat> listeAchats;
+	
+	
+	public void remplir(Article article, int quantite) {
+		
+		Achat achat= new Achat(article, quantite);
+		
+		listeAchats.add(achat);
+		
+	}
+}
